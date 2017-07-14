@@ -1,0 +1,3 @@
+title: 'DocsKit Demo'
+pages:
+  index.html: 'md/*.md'

@@ -1,0 +1,35 @@
+{
+  "name": "docskit",
+  "version": "0.0.1",
+  "description": "Cli to generate a static documentation site from markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "cd demo && node ../index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/docskit.git"
+  },
+  "keywords": [
+    "docs",
+    "markdown",
+    "taskkit",
+    "documentation",
+    "help",
+    "static"
+  ],
+  "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/docskit/issues"
+  },
+  "homepage": "https://github.com/firstandthird/docskit#readme",
+  "dependencies": {
+    "clientkit-css": "^1.0.1",
+    "taskkit": "^2.0.0",
+    "taskkit-docs": "0.0.1",
+    "taskkit-rollup": "^1.0.1",
+    "taskkit-watcher": "^1.0.0"
+  }
+}
